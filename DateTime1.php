@@ -11,11 +11,11 @@
     echo "Created date is " . date("Y-m-d h:i:s a", $d) . "<br>";
 
     $d1=strtotime("next Saturday");
-    echo date("Y-m-d h:i:sa", $d1) . "<br>";
+    echo date("Y-m-d h:i:s a", $d1) . "<br>";
 
     $d2=strtotime("+3 months");
-    echo date("Y-m-d h:i:sa", $d2) . "<br>";
+    echo date("Y-m-d h:i:s a", $d2) . "<br>";
 
     $d3 = time();
-    echo date("Y-m-d h:i:sa", $d3) . "<br>";
+    echo date("Y-m-d h:i:s a", $d3) . "<br>";
 ?>
